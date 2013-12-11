@@ -14,7 +14,6 @@
 		53F741291858C2BF009101D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F741281858C2BF009101D8 /* main.m */; };
 		53F7412D1858C2BF009101D8 /* PMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7412C1858C2BF009101D8 /* PMPAppDelegate.m */; };
 		53F741301858C2BF009101D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F7412E1858C2BF009101D8 /* Main.storyboard */; };
-		53F741331858C2BF009101D8 /* PMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F741321858C2BF009101D8 /* PMPViewController.m */; };
 		53F741351858C2BF009101D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F741341858C2BF009101D8 /* Images.xcassets */; };
 		53F7413C1858C2BF009101D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F7413B1858C2BF009101D8 /* XCTest.framework */; };
 		53F7413D1858C2BF009101D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F7411C1858C2BF009101D8 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		53F7412B1858C2BF009101D8 /* PMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMPAppDelegate.h; sourceTree = "<group>"; };
 		53F7412C1858C2BF009101D8 /* PMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMPAppDelegate.m; sourceTree = "<group>"; };
 		53F7412F1858C2BF009101D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53F741311858C2BF009101D8 /* PMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMPViewController.h; sourceTree = "<group>"; };
-		53F741321858C2BF009101D8 /* PMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMPViewController.m; sourceTree = "<group>"; };
 		53F741341858C2BF009101D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53F7413A1858C2BF009101D8 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F7413B1858C2BF009101D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				53F7412B1858C2BF009101D8 /* PMPAppDelegate.h */,
 				53F7412C1858C2BF009101D8 /* PMPAppDelegate.m */,
 				53F7412E1858C2BF009101D8 /* Main.storyboard */,
-				53F741311858C2BF009101D8 /* PMPViewController.h */,
-				53F741321858C2BF009101D8 /* PMPViewController.m */,
 				53F741341858C2BF009101D8 /* Images.xcassets */,
 				53F741231858C2BF009101D8 /* Supporting Files */,
 			);
@@ -252,7 +247,6 @@
 			files = (
 				53F7412D1858C2BF009101D8 /* PMPAppDelegate.m in Sources */,
 				53F741291858C2BF009101D8 /* main.m in Sources */,
-				53F741331858C2BF009101D8 /* PMPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
