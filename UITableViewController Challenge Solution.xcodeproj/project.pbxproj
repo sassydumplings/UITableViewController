@@ -20,6 +20,7 @@
 		53F7413E1858C2BF009101D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F741201858C2BF009101D8 /* UIKit.framework */; };
 		53F741461858C2BF009101D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F741441858C2BF009101D8 /* InfoPlist.strings */; };
 		53F741481858C2BF009101D8 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F741471858C2BF009101D8 /* UITableViewController_Challenge_SolutionTests.m */; };
+		53F741531858C63B009101D8 /* PMPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F741521858C63B009101D8 /* PMPTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		53F741431858C2BF009101D8 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		53F741451858C2BF009101D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53F741471858C2BF009101D8 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		53F741511858C63B009101D8 /* PMPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPTableViewController.h; sourceTree = "<group>"; };
+		53F741521858C63B009101D8 /* PMPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				53F7412B1858C2BF009101D8 /* PMPAppDelegate.h */,
 				53F7412C1858C2BF009101D8 /* PMPAppDelegate.m */,
 				53F7412E1858C2BF009101D8 /* Main.storyboard */,
+				53F741511858C63B009101D8 /* PMPTableViewController.h */,
+				53F741521858C63B009101D8 /* PMPTableViewController.m */,
 				53F741341858C2BF009101D8 /* Images.xcassets */,
 				53F741231858C2BF009101D8 /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 			files = (
 				53F7412D1858C2BF009101D8 /* PMPAppDelegate.m in Sources */,
 				53F741291858C2BF009101D8 /* main.m in Sources */,
+				53F741531858C63B009101D8 /* PMPTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
